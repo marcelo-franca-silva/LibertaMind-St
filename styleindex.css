@@ -65,7 +65,9 @@ header h1 span{
 
 
 .row{
+    display:flex;
     margin: 70px;
+    flex-wrap:wrap;
 }
 
 .section{
@@ -77,6 +79,7 @@ header h1 span{
 
 .card{
     border: 3px solid #982B1C;
+    width:200px;
 }
 
 
