@@ -1,0 +1,578 @@
+body, html {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom-navbar {
+    background-color: #800000;
+}
+
+
+.navbar-brand, .nav-link{
+    color: #ffffff !important;
+}
+
+.dropdown-item{
+    color: #000000;
+}
+
+
+.nav-link:hover, .dropdown-item:hover {
+    color: #f8f9fa !important;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover img {
+    transform: scale(1.1);
+}
+
+
+.dropdown-menu {
+    background-color: #ffffff;
+}
+
+.dropdown-item {
+    color: #800000;
+}
+
+.dropdown-item:hover {
+    color: #fff;
+    background-color: #800000;
+}
+
+
+
+
+
+
+
+
+
+.d-flex img{
+     width: 30px;
+     height: 30px;
+     margin: 5px;
+}
+
+header h1 span{
+    color: #982B1C;
+}
+
+.hero-section {
+    background: url(img/fundo1.png) center/cover no-repeat;
+    height: 100vh;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    
+}
+
+.hero-section .btn-outline-light {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+
+
+
+.custom-card {
+    border: none;
+    background-color: #d3d3d3;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.custom-card .card-body {
+    padding: 1.5rem;
+}
+
+
+.custom-card:hover {
+    transform: translateY(-5px);  
+}
+
+
+.card-text {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .custom-card .card-body {
+        padding: 1rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .custom-card .card-body {
+        padding: 1.75rem;
+    }
+
+    .card-text {
+        font-size: 1.15rem;
+    }
+}
+
+
+
+
+
+
+
+
+.curi {
+    background: url('img/fundo2.png') center/cover no-repeat; 
+    height: 70vh; 
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.curi .container {
+    z-index: 1; 
+}
+
+
+.custom-card1 {
+    background-color: rgba(0, 0, 0, 0.5); 
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card1:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-body1 {
+    padding: 1rem;
+}
+
+.card-title1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.card-text1 {
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 767px) {
+    .curi {
+        height: 60vh; 
+    }
+
+    .custom-card1 {
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    .card-title1 {
+        font-size: 1.25rem; 
+    }
+
+    .card-text1 {
+        font-size: 1rem; 
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .curi {
+        height: 65vh; 
+    }
+
+    .custom-card1 {
+        padding: 1.25rem;
+    }
+
+    .card-title1 {
+        font-size: 1.375rem; 
+    }
+
+    .card-text1 {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .curi {
+        height: 70vh; 
+    }
+
+    .custom-card1 {
+        padding: 1.5rem;
+    }
+
+    .card-title1 {
+        font-size: 1.5rem; 
+    }
+
+    .card-text1 {
+        font-size: 1.125rem; 
+    }
+}
+
+
+
+
+
+
+
+.liberta-info {
+    background-color: #f9f9f9; 
+    padding: 3rem 0; 
+    text-align: center;
+}
+
+
+.liberta-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 0 auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.liberta-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.liberta-card-body {
+    padding: 2rem;
+}
+
+.liberta-card-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.liberta-card-text {
+    font-size: 1.125rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 767px) {
+    .liberta-info {
+        padding: 2rem 0;
+    }
+
+    .liberta-card-body {
+        padding: 1rem;
+    }
+
+    .liberta-card-title {
+        font-size: 1.5rem; 
+    }
+
+    .liberta-card-text {
+        font-size: 1rem; 
+    }
+
+    .liberta-card img {
+        width: 100%; 
+        height: auto;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .liberta-card-body {
+        padding: 1.5rem; 
+    }
+
+    .liberta-card-title {
+        font-size: 1.625rem;
+    }
+
+    .liberta-card-text {
+        font-size: 1.125rem; 
+    }
+
+    .liberta-card img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .liberta-card-body {
+        padding: 2rem;
+    }
+
+    .liberta-card-title {
+        font-size: 1.75rem;
+    }
+
+    .liberta-card-text {
+        font-size: 1.125rem;
+    }
+
+    .liberta-card img {
+        width: 100%;
+        height: auto;
+    }
+}
+ 
+
+
+
+
+.container-2{
+    display: flex;
+    margin: 70px;
+    margin-top: -100px;
+    background-color: #b7b7b7;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.container-20{
+    display: flex;
+    margin: 70px;
+    margin-top: -30px;
+    background-color: #b7b7b7c9;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+#about{
+margin-top: -170px;
+}
+
+#about p {
+    margin: 0 auto;
+    max-width: 800px;
+    color: #000000;
+}
+
+
+
+.section {
+    padding: 40px 15px; 
+}
+
+
+.section h2 {
+    font-size: 2.5rem; 
+    color: #333;
+}
+
+
+.card {
+    border: 1px solid #982B1C; 
+    border-radius: 10px; 
+    transition: transform 0.3s; 
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+}
+
+
+.card-img-top {
+    width: 100%; 
+    height: auto; 
+}
+
+
+@media (max-width: 768px) {
+    .section h2 {
+        font-size: 2rem; 
+    }
+
+    .card {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .section h2 {
+        font-size: 1.5rem; /
+    }
+
+    .card-body {
+        padding: 15px; 
+    }
+
+    .card-title {
+        font-size: 1.25rem; 
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
+}
+
+
+/* Estilos gerais */
+
+/* Estilos da seção */
+.questions {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.container-dv {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos para as caixas de FAQ */
+.faq-box {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    padding: 15px;
+    background-color: #982B1C;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.answer {
+    display: none;
+    padding: 15px;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    color: #333;
+    border-top: 1px solid #ccc;
+}
+
+/* Estilo ao abrir a resposta */
+.faq-box.active .answer {
+    display: block;
+}
+
+.faq-box.active .toggle {
+    transform: rotate(180deg);
+}
+
+/* Estilos de responsividade */
+@media (max-width: 768px) {
+    .questions {
+        padding: 30px 0;
+    }
+
+    .question {
+        font-size: 1rem;
+    }
+
+    .answer {
+        font-size: 0.95rem;
+    }
+}
+
+/* Estilo para telas muito pequenas */
+@media (max-width: 480px) {
+    .question {
+        font-size: 0.9rem;
+    }
+
+    .answer {
+        font-size: 0.85rem;
+    }
+
+    .toggle {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+#footer{
+    margin-top: 100px;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #982B1C;
+}
+
+
+
+
+
+@media (max-width: 650px){
+    .card-title2{
+font-size: 20px;
+    }
+    .card-text2{
+font-size: 18px;
+    }
+}
+
